@@ -115,7 +115,7 @@ def get_msg_content(token, msg_id):
     except:
         return None
 
--------------- ADMIN COMMANDS ----------------
+#-------------- ADMIN COMMANDS ----------------
 
 @bot.message_handler(commands=['broadcast'])
 def send_broadcast(message):

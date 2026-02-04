@@ -180,7 +180,7 @@ def show_main_menu(message):
                    InlineKeyboardButton("🔄 Refresh", callback_data="refresh_menu"))
         markup.row(InlineKeyboardButton("🗑️ Delete & New", callback_data="gen_email"))
     else:
-        text = "👋 **Welcome!**\nGenerate a secure temporary email instantly."
+        text = "👋 **Welcome!**\⚠️ Disclaimer: This bot is for educational purposes only. Do not use temporary emails for illegal activities. Developer is not responsible for misuse.."
         markup = InlineKeyboardMarkup()
         markup.add(InlineKeyboardButton("✨ Generate Email", callback_data="gen_email"))
 
